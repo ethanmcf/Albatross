@@ -1,26 +1,24 @@
 //
-//  ClubCell.swift
+//  CourseTableCell.swift
 //  Albatross
 //
-//  Created by Ethan McFarland on 2022-05-09.
+//  Created by Ethan McFarland on 2022-05-13.
 //
 
 import UIKit
 
-protocol ClubCellDelegate: AnyObject{
-    
-}
-
-class ClubCell: UITableViewCell {
-    static let identifier = "clubcell"
-    weak var delegate: ClubCellDelegate?
+class CourseTableCell: UITableViewCell {
+    static let identifier = "courseTC"
     
     static func nib() -> UINib{
-        return UINib(nibName: "ClubCell", bundle: nil)
+        return UINib(nibName: "CourseTableCell", bundle: nil)
     }
     
+    public func configure(){
+        
+        
+    }
     
-// MARK: - Unimportant
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -29,6 +27,7 @@ class ClubCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
+        // Configure the view for the selected state
     }
     
 }

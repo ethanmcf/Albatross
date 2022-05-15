@@ -8,22 +8,46 @@
 import UIKit
 
 class ScoreVC: UIViewController {
-
+    @IBOutlet weak var courseTable: UITableView!
+    let searchClub = UISearchController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        courseTable.register(CourseTableCell.nib(), forCellReuseIdentifier: CourseTableCell.identifier)
+        courseTable.delegate = self
+        courseTable.dataSource = self
+        
+        self.navigationItem.searchController = searchClub
+    }
 
-        // Do any additional setup after loading the view.
+}
+
+// MARK: - Table View
+extension ScoreVC: UITableViewDelegate,UITableViewDataSource{
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
     }
-    */
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 90
+    }
+    
+    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .delete
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
+        
+        let cell = courseTable.dequeueReusableCell(withIdentifier: CourseTableCell.identifier, for: indexPath) as! CourseTableCell
+        //cell.configure()
+        return cell
+    }
+   
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+    }
 }

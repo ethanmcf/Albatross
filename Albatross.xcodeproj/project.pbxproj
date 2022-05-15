@@ -13,12 +13,16 @@
 		D660737528288C5200745B79 /* Albatross.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D660737328288C5200745B79 /* Albatross.xcdatamodeld */; };
 		D660737728288C5600745B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D660737628288C5600745B79 /* Assets.xcassets */; };
 		D660737A28288C5600745B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D660737828288C5600745B79 /* LaunchScreen.storyboard */; };
-		D660738228296C1600745B79 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660738128296C1600745B79 /* TabBar.swift */; };
 		D66073842829808000745B79 /* ClubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66073832829808000745B79 /* ClubVC.swift */; };
-		D660738B282983E800745B79 /* ClubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6607389282983E800745B79 /* ClubCell.swift */; };
-		D660738C282983E800745B79 /* ClubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D660738A282983E800745B79 /* ClubCell.xib */; };
 		D660738E282AB88300745B79 /* ScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660738D282AB88300745B79 /* ScoreVC.swift */; };
-		D6607393282ADE9D00745B79 /* ClubsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6607392282ADE9D00745B79 /* ClubsNav.swift */; };
+		D660739E282B15B500745B79 /* ClubViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660739C282B15B500745B79 /* ClubViewCell.swift */; };
+		D660739F282B15B500745B79 /* ClubViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D660739D282B15B500745B79 /* ClubViewCell.xib */; };
+		D66073A4282B161B00745B79 /* ClubTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66073A2282B161B00745B79 /* ClubTableCell.swift */; };
+		D66073A5282B161B00745B79 /* ClubTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66073A3282B161B00745B79 /* ClubTableCell.xib */; };
+		D66073A9282B191D00745B79 /* AddClubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66073A8282B191D00745B79 /* AddClubVC.swift */; };
+		D66073AD282ED20700745B79 /* CourseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66073AB282ED20700745B79 /* CourseTableCell.swift */; };
+		D66073AE282ED20700745B79 /* CourseTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66073AC282ED20700745B79 /* CourseTableCell.xib */; };
+		D66073B0282EF03000745B79 /* HoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66073AF282EF03000745B79 /* HoleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +34,16 @@
 		D660737628288C5600745B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D660737928288C5600745B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D660737B28288C5600745B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D660738128296C1600745B79 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		D66073832829808000745B79 /* ClubVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubVC.swift; sourceTree = "<group>"; };
-		D6607389282983E800745B79 /* ClubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubCell.swift; sourceTree = "<group>"; };
-		D660738A282983E800745B79 /* ClubCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClubCell.xib; sourceTree = "<group>"; };
 		D660738D282AB88300745B79 /* ScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreVC.swift; sourceTree = "<group>"; };
-		D6607392282ADE9D00745B79 /* ClubsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsNav.swift; sourceTree = "<group>"; };
+		D660739C282B15B500745B79 /* ClubViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubViewCell.swift; sourceTree = "<group>"; };
+		D660739D282B15B500745B79 /* ClubViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClubViewCell.xib; sourceTree = "<group>"; };
+		D66073A2282B161B00745B79 /* ClubTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubTableCell.swift; sourceTree = "<group>"; };
+		D66073A3282B161B00745B79 /* ClubTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClubTableCell.xib; sourceTree = "<group>"; };
+		D66073A8282B191D00745B79 /* AddClubVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClubVC.swift; sourceTree = "<group>"; };
+		D66073AB282ED20700745B79 /* CourseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableCell.swift; sourceTree = "<group>"; };
+		D66073AC282ED20700745B79 /* CourseTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseTableCell.xib; sourceTree = "<group>"; };
+		D66073AF282EF03000745B79 /* HoleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,7 @@
 				D660738F282ADC0800745B79 /* Source */,
 				D660737B28288C5600745B79 /* Info.plist */,
 				D660737328288C5200745B79 /* Albatross.xcdatamodeld */,
+				D660737628288C5600745B79 /* Assets.xcassets */,
 			);
 			path = Albatross;
 			sourceTree = "<group>";
@@ -82,7 +91,6 @@
 			children = (
 				D660736A28288C5200745B79 /* AppDelegate.swift */,
 				D660736C28288C5200745B79 /* SceneDelegate.swift */,
-				D660737628288C5600745B79 /* Assets.xcassets */,
 				D660737828288C5600745B79 /* LaunchScreen.storyboard */,
 				D660737028288C5200745B79 /* Main.storyboard */,
 			);
@@ -94,6 +102,8 @@
 			children = (
 				D660738D282AB88300745B79 /* ScoreVC.swift */,
 				D66073832829808000745B79 /* ClubVC.swift */,
+				D66073A8282B191D00745B79 /* AddClubVC.swift */,
+				D66073AF282EF03000745B79 /* HoleVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -101,12 +111,38 @@
 		D6607391282ADC6A00745B79 /* Customize */ = {
 			isa = PBXGroup;
 			children = (
-				D6607389282983E800745B79 /* ClubCell.swift */,
-				D660738A282983E800745B79 /* ClubCell.xib */,
-				D660738128296C1600745B79 /* TabBar.swift */,
-				D6607392282ADE9D00745B79 /* ClubsNav.swift */,
+				D66073AA282ED1E700745B79 /* CourseTableView */,
+				D66073A7282B173C00745B79 /* ClubCollView */,
+				D66073A6282B172B00745B79 /* ClubTableView */,
 			);
 			path = Customize;
+			sourceTree = "<group>";
+		};
+		D66073A6282B172B00745B79 /* ClubTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D66073A2282B161B00745B79 /* ClubTableCell.swift */,
+				D66073A3282B161B00745B79 /* ClubTableCell.xib */,
+			);
+			path = ClubTableView;
+			sourceTree = "<group>";
+		};
+		D66073A7282B173C00745B79 /* ClubCollView */ = {
+			isa = PBXGroup;
+			children = (
+				D660739C282B15B500745B79 /* ClubViewCell.swift */,
+				D660739D282B15B500745B79 /* ClubViewCell.xib */,
+			);
+			path = ClubCollView;
+			sourceTree = "<group>";
+		};
+		D66073AA282ED1E700745B79 /* CourseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D66073AB282ED20700745B79 /* CourseTableCell.swift */,
+				D66073AC282ED20700745B79 /* CourseTableCell.xib */,
+			);
+			path = CourseTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +203,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66073A5282B161B00745B79 /* ClubTableCell.xib in Resources */,
 				D660737A28288C5600745B79 /* LaunchScreen.storyboard in Resources */,
 				D660737728288C5600745B79 /* Assets.xcassets in Resources */,
+				D66073AE282ED20700745B79 /* CourseTableCell.xib in Resources */,
 				D660737228288C5200745B79 /* Main.storyboard in Resources */,
-				D660738C282983E800745B79 /* ClubCell.xib in Resources */,
+				D660739F282B15B500745B79 /* ClubViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,13 +220,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D660737528288C5200745B79 /* Albatross.xcdatamodeld in Sources */,
-				D660738B282983E800745B79 /* ClubCell.swift in Sources */,
 				D660738E282AB88300745B79 /* ScoreVC.swift in Sources */,
+				D66073B0282EF03000745B79 /* HoleVC.swift in Sources */,
 				D66073842829808000745B79 /* ClubVC.swift in Sources */,
+				D66073AD282ED20700745B79 /* CourseTableCell.swift in Sources */,
 				D660736B28288C5200745B79 /* AppDelegate.swift in Sources */,
+				D66073A9282B191D00745B79 /* AddClubVC.swift in Sources */,
+				D66073A4282B161B00745B79 /* ClubTableCell.swift in Sources */,
 				D660736D28288C5200745B79 /* SceneDelegate.swift in Sources */,
-				D660738228296C1600745B79 /* TabBar.swift in Sources */,
-				D6607393282ADE9D00745B79 /* ClubsNav.swift in Sources */,
+				D660739E282B15B500745B79 /* ClubViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
